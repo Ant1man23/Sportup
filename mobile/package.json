@@ -1,0 +1,48 @@
+{
+  "name": "sportup-mobile",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "tsc": "tsc",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.23.0",
+    "@react-native-community/netinfo": "^11.3.0",
+    "@react-native-firebase/app": "^20.5.0",
+    "@react-native-firebase/messaging": "^20.5.0",
+    "@react-navigation/bottom-tabs": "^6.5.11",
+    "@react-navigation/native": "^6.1.9",
+    "@react-navigation/native-stack": "^6.9.17",
+    "@tanstack/react-query": "^5.28.0",
+    "axios": "^1.6.8",
+    "lucide-react-native": "^0.359.0",
+    "react": "18.2.0",
+    "react-native": "0.74.0",
+    "react-native-image-picker": "^8.2.1",
+    "react-native-maps": "^1.18.0",
+    "react-native-safe-area-context": "^4.9.0",
+    "react-native-screens": "^3.30.0",
+    "react-native-svg": "^15.4.0",
+    "zustand": "^4.5.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@babel/runtime": "^7.24.0",
+    "@react-native/babel-preset": "^0.87.1",
+    "@react-native/metro-config": "^0.87.1",
+    "@types/jest": "^29.5.12",
+    "@types/react": "^18.2.66",
+    "@types/react-native": "^0.73.0",
+    "@types/react-test-renderer": "^18.0.7",
+    "typescript": "^5.4.2"
+  },
+  "allowScripts": {
+    "@firebase/util@1.15.2": true,
+    "protobufjs@7.6.6": true
+  }
+}

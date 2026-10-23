@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "295246434685",
+    "project_id": "sportup-68474",
+    "storage_bucket": "sportup-68474.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:295246434685:android:320b4775e14af27f8ebc14",
+        "android_client_info": {
+          "package_name": "com.sportup.mobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARukTrwCmststcx4u7q6DMWKWivBbFaNo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

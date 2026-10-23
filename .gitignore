@@ -1,0 +1,51 @@
+# ── Binaires & Builds volumineux ───────────────────────────────────
+*.apk
+*.aab
+*.log
+cloudflared.log
+
+# ── Environnements & Secrets ───────────────────────────────────────
+.env
+.env.backup
+.env.production
+*.env.local
+*firebase-credentials.json
+backend/firebase-credentials.json
+!*firebase-credentials.json.example
+
+# ── Backend Laravel ────────────────────────────────────────────────
+backend/vendor/
+backend/storage/*.key
+backend/storage/logs/
+backend/storage/framework/cache/
+backend/storage/framework/sessions/
+backend/storage/framework/views/
+backend/storage/framework/testing/
+backend/bootstrap/cache/
+backend/.phpunit.result.cache
+
+# ── Mobile React Native / Node ────────────────────────────────────
+mobile/node_modules/
+mobile/.expo/
+mobile/dist/
+mobile/npm-debug.log*
+mobile/yarn-debug.log*
+mobile/yarn-error.log*
+
+# ── Android ───────────────────────────────────────────────────────
+mobile/android/.gradle/
+mobile/android/build/
+mobile/android/app/build/
+mobile/android/local.properties
+mobile/android/.idea/
+mobile/android/*.iml
+mobile/android/app/*.iml
+
+# ── IDE & Système ──────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db

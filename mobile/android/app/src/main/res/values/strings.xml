@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SportUp</string>
+    <string name="google_maps_key" translatable="false">AIzaSyADSyTyyrt-shevgxYP2ynzpAmZ7m9KGxw</string>
+</resources>
